@@ -14,7 +14,7 @@
   
   .board {
     width: 100vw;
-    height: 100vh;
+    min-height: 60vh;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -145,3 +145,34 @@
   .winning-message.show {
     display: flex;
   }
+
+   /* FOOTER SECTION */
+
+   footer {
+    height: min-content;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+    color: white;
+  }
+
+  nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
